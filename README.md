@@ -12,7 +12,7 @@ This repository gives a simple explanation and an agent skill for the [RAHP Tool
 
 An AI app or agent can work correctly and still harm real people. For example, a valid signature does not prove that an action has permission. Before you trust your app or agent, ask one question: "Could this harm real people?" This skill helps your AI agent find the answer with you, step by step. It also shows you which answers have evidence.
 
-## Who it is for
+## Who is it for?
 
 This is for vibe coders, builders, and other persons who are not risk specialists. You make apps or agents with AI tools. Before other persons use your app, you must know if it can cause harm.
 
@@ -25,7 +25,7 @@ It is not necessary to install the full RAHP Toolkit. It is not necessary to wri
 3. **Missing evidence never becomes PASS.** This is the primary rule of RAHP.
 4. **You make the decisions.** The agent prepares findings. You make a decision about each finding and about the correct location for each correction.
 
-## What it does
+## What does it do?
 
 When you tell your AI agent to do a harm check, the skill tells the agent to do these steps with you:
 
@@ -44,7 +44,7 @@ The skill also tells the agent to look for frequent errors. These are 3 examples
 2. A valid credential that the app uses as evidence of permission.
 3. A report with zero findings that the agent calls "safe".
 
-## How it works
+## How does it work?
 
 *The diagrams below use the visual language of [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design):*
 
