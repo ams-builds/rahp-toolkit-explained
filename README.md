@@ -1,12 +1,16 @@
 # rahp-toolkit-explained
 
-**The pitch: before you trust your AI app or agent, ask one question. Could this harm real people? This skill helps Claude find the answer with you, step by step. It also shows you which answers have evidence.**
+## What is it?
+
+This repository gives a simple explanation and a Claude skill for the [RAHP Toolkit](https://github.com/sankarshanmukhopadhyay/rahp-toolkit). RAHP is "Risk Assessment and Harms Prevention". RAHP is a method that tells you if you can trust a system. The method starts with the persons that a system can harm. Then it finds the evidence that shows that a control stops each harm.
 
 ![RAHP at a glance: you supply your app or agent, the harm check finds which harm it can cause, and the result is PASS, FAIL or NOT SURE](assets/rahp-at-a-glance.svg)
 
 *Do you want the technical terms in simple words? Refer to the [Jargon Buster](JARGON.md).*
 
-This repository gives a simple explanation and a Claude skill for the [RAHP Toolkit](https://github.com/sankarshanmukhopadhyay/rahp-toolkit). RAHP is "Risk Assessment and Harms Prevention". RAHP is a method that tells you if you can trust a system. The method starts with the persons that a system can harm. Then it finds the evidence that shows that a control stops each harm.
+## What problem does it solve?
+
+An AI app or agent can work correctly and still harm real people. For example, a valid signature does not prove that an action has permission. Before you trust your app or agent, ask one question: "Could this harm real people?" This skill helps Claude find the answer with you, step by step. It also shows you which answers have evidence.
 
 ## Who it is for
 
