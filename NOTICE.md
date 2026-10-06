@@ -29,3 +29,13 @@ This is an independent plain-language explainer. It is not an official part of e
 ## License
 
 This work uses the Creative Commons Attribution 4.0 International license (CC-BY 4.0). Refer to [LICENSE](LICENSE).
+
+Writing style
+-------------
+The text is in Simplified Technical English (ASD-STE100).
+- Idea to ask an AI model to write in ASD-STE100: Andrej Karpathy (https://github.com/karpathy),
+  post on X: https://x.com/karpathy/status/2105819303471976479
+- Writing and checking: the simplified-technical-english agent skill by pili
+  (https://github.com/0xpili), https://github.com/0xpili/simplified-technical-english
+- ASD-STE100 is a specification and registered trade mark of ASD (AeroSpace and Defence
+  Industries Association of Europe). This repository is not related to ASD.

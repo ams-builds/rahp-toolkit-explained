@@ -125,6 +125,8 @@ Changes from the sources:
 
 This repository uses the [CC-BY 4.0](LICENSE) license. Refer to [NOTICE.md](NOTICE.md) for the attribution and the full list of changes.
 
+**Writing style.** I wrote the text in Simplified Technical English (ASD-STE100). The idea to ask an AI model to write in ASD-STE100 comes from [Andrej Karpathy](https://github.com/karpathy) ([his post on X](https://x.com/karpathy/status/2105819303471976479)). I used the [simplified-technical-english](https://github.com/0xpili/simplified-technical-english) agent skill by [pili](https://github.com/0xpili) to write and check the text. ASD-STE100 is a specification of ASD (AeroSpace and Defence Industries Association of Europe). This repository is not related to ASD.
+
 ---
 
 *New terms? Refer to the [Jargon Buster](JARGON.md) for simple explanations of persona, harm, claim, guardrail, evidence, control plane, and more.*
