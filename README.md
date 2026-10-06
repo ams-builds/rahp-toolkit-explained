@@ -62,6 +62,16 @@ Not all problems are code changes. RAHP gives each finding 1 primary location fo
 
 The skill folder is this repository. Its name must be `rahp-harm-check`. Select the instructions for your AI agent.
 
+### One command for all agents
+
+If you have Node.js, run this command in a terminal. The command installs the skill for Claude Code, Codex, GitHub Copilot, and other agents.
+
+```
+npx skills add ams-builds/rahp-toolkit-explained
+```
+
+To get the latest version later, run `npx skills update`. The command uses [skills](https://github.com/vercel-labs/skills) by [Vercel](https://github.com/vercel-labs). If you do not use a terminal, use the instructions for your agent below.
+
 ### Claude
 
 1. For the Claude apps (claude.ai or Claude desktop), download this repository as a ZIP file.
