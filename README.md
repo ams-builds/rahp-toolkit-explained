@@ -1,0 +1,91 @@
+# rahp-toolkit-explained
+
+**The pitch: before you trust your AI app or agent, ask one question. Could this harm real people? This skill helps Claude find the answer with you, step by step. It also shows you which answers have evidence.**
+
+![RAHP at a glance: you supply your app or agent, the harm check finds which harm it can cause, and the result is PASS, FAIL or NOT SURE](assets/rahp-at-a-glance.svg)
+
+*Do you want the technical terms in simple words? Refer to the [Jargon Buster](JARGON.md).*
+
+This repository gives a simple explanation and a Claude skill for the [RAHP Toolkit](https://github.com/sankarshanmukhopadhyay/rahp-toolkit). RAHP is "Risk Assessment and Harms Prevention". RAHP is a method that tells you if you can trust a system. The method starts with the persons that a system can harm. Then it finds the evidence that shows that a control stops each harm.
+
+## Who it is for
+
+This is for vibe coders, builders, and other persons who are not risk specialists. You make apps or agents with AI tools. Before other persons use your app, you must know if it can cause harm.
+
+It is not necessary to install the full RAHP Toolkit. It is not necessary to write code. The skill operates in Claude chat, Claude Cowork, and the Claude desktop app.
+
+## Safe by default
+
+1. **Read and draft first.** Claude reads your files and writes drafts. Claude does not change, send, or delete data.
+2. **Evidence comes from your files.** Claude must not make up evidence. If there is no evidence, the result is NOT SURE.
+3. **Missing evidence never becomes PASS.** This is the primary rule of RAHP.
+4. **You make the decisions.** Claude prepares findings. You make a decision about each finding and about the correct location for each correction.
+
+## What it does
+
+When you tell Claude to do a harm check, the skill tells Claude to do these steps with you:
+
+1. Identify the item to examine, for example your app, a feature, or a change.
+2. Identify the persons that the item can have an effect on, and their roles.
+3. Find the possible harms to these persons.
+4. Write each claim that must be correct for the item to be safe.
+5. Find the guardrail or the control that stops each harm.
+6. Find the evidence in your files for each control.
+7. Give each claim a result: PASS, FAIL, or NOT SURE.
+8. For each problem, find the correct location for the correction.
+
+The skill also tells Claude to look for frequent errors. These are 3 examples:
+
+1. A result of PASS with no evidence.
+2. A valid credential that the app uses as evidence of permission.
+3. A report with zero findings that Claude calls "safe".
+
+## How it works
+
+*The diagrams below use the visual language of [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design):*
+
+![Seven steps from left to right: personas, harm, claim, guardrail, evidence, conclusion, recommendation. Missing evidence gives NOT SURE.](assets/rahp-reasoning-chain.svg)
+
+A RAHP check is a chain of 7 steps. It starts with persons and it stops with an action. Evidence is the center of the chain. Claude can prepare most steps, but the evidence must come from your files. The memory of Claude is not evidence. If a claim has no evidence, the result is NOT SURE.
+
+After you change the app, you do the check again for the parts that changed.
+
+![A finding goes to one of six locations: specification, code, test or evidence, operator control, governance and redress, or user experience](assets/rahp-where-the-correction-goes.svg)
+
+Not all problems are code changes. RAHP gives each finding 1 primary location for the correction. RAHP calls this location the "control plane". Select the smallest control plane that has the authority to make the change and a path to evidence. For example, a missing appeal process is a governance problem, not a code problem.
+
+## How to install
+
+**Claude Cowork, Claude chat, or the Claude apps:** upload `SKILL.md` as a custom skill. It is not necessary to upload other files.
+
+*Developers who use Claude Code can also put this folder in a skills directory.*
+
+## How to use it
+
+After you install the skill, speak to Claude in your usual words:
+
+- "Do a harm check of my app."
+- "Can this agent cause harm to real persons?"
+- "Which claims in my app have no evidence?"
+- "Where does the correction for this problem go?"
+
+The skill starts automatically. It is not necessary to use its name.
+
+## Credit and license
+
+This repository uses the [RAHP Toolkit](https://github.com/sankarshanmukhopadhyay/rahp-toolkit) by Sankarshan Mukhopadhyay. The RAHP Toolkit started as the [DTG RAHP Toolkit](https://github.com/trustoverip/dtgwg-rahp-tf). A task force of the Decentralised Trust Graph Working Group (DTGWG) keeps that toolkit in the Trust Over IP GitHub organization. The name of the task force is the Risk Assessment and Harms Prevention Task Force. The 2 sources use the CC-BY 4.0 license.
+
+This is an independent explanation in simple words. It is not an official part of the RAHP Toolkit or of the task force. I made this explanation. All errors in it are my errors.
+
+Changes from the sources:
+
+1. I wrote new text in simple words for persons who are not specialists.
+2. I made 3 new diagrams.
+3. I wrote a Claude skill (`SKILL.md`) that applies a small part of the method to an app or an agent.
+4. I did not copy the tools, schemas, catalogues, or worked examples. Refer to the sources for these.
+
+This repository uses the [CC-BY 4.0](LICENSE) license. Refer to [NOTICE.md](NOTICE.md) for the attribution and the full list of changes.
+
+---
+
+*New terms? Refer to the [Jargon Buster](JARGON.md) for simple explanations of persona, harm, claim, guardrail, evidence, control plane, and more.*

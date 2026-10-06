@@ -1,0 +1,82 @@
+<svg viewBox="0 0 1200 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">How a RAHP check works</title>
+<desc id="desc">Seven steps from left to right: personas, harm, claim, guardrail, evidence, conclusion, recommendation. Claude can prepare most steps. Evidence must come from your files. You make the decision. Missing evidence gives NOT SURE, never PASS. After a change, you do the check again.</desc>
+<defs>
+  <marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L8,4 L0,8 z" fill="#2d3142"/>
+  </marker>
+  <marker id="arrowMuted" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L8,4 L0,8 z" fill="#7a8399"/>
+  </marker>
+  <marker id="arrowAccent" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L8,4 L0,8 z" fill="#eb6c36"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="1200" height="480" fill="#f5f5f5"/>
+<text x="40" y="44" font-family="'Instrument Serif', Georgia, 'Times New Roman', serif" font-size="28" fill="#2d3142">How a RAHP check works</text>
+<text x="40" y="64" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="9" letter-spacing="0.06em" fill="#7a8399">START WITH PERSONS. END WITH AN ACTION. EVIDENCE IS THE CENTER.</text>
+<rect x="40" y="170" width="136" height="56" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+<rect x="46" y="176" width="24" height="16" rx="4" fill="#ececec"/>
+<text x="58.0" y="188" text-anchor="middle" font-family="Geist, sans-serif" font-size="8" font-weight="600" fill="#2d3142">AI</text>
+<text x="108.0" y="207.0" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#2d3142">Personas</text>
+<text x="108.0" y="220.0" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8" fill="#4f5d75">persons and roles</text>
+<rect x="204" y="170" width="136" height="56" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+<rect x="210" y="176" width="24" height="16" rx="4" fill="#ececec"/>
+<text x="222.0" y="188" text-anchor="middle" font-family="Geist, sans-serif" font-size="8" font-weight="600" fill="#2d3142">AI</text>
+<text x="272.0" y="207.0" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#2d3142">Harm</text>
+<text x="272.0" y="220.0" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8" fill="#4f5d75">damage to a person</text>
+<line x1="176" y1="198.0" x2="200" y2="198.0" stroke="#2d3142" stroke-width="1" marker-end="url(#arrow)"/>
+<rect x="368" y="170" width="136" height="56" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+<rect x="374" y="176" width="24" height="16" rx="4" fill="#ececec"/>
+<text x="386.0" y="188" text-anchor="middle" font-family="Geist, sans-serif" font-size="8" font-weight="600" fill="#2d3142">AI</text>
+<text x="436.0" y="207.0" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#2d3142">Claim</text>
+<text x="436.0" y="220.0" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8" fill="#4f5d75">this must be correct</text>
+<line x1="340" y1="198.0" x2="364" y2="198.0" stroke="#2d3142" stroke-width="1" marker-end="url(#arrow)"/>
+<rect x="532" y="170" width="136" height="56" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+<rect x="538" y="176" width="24" height="16" rx="4" fill="#ececec"/>
+<text x="550.0" y="188" text-anchor="middle" font-family="Geist, sans-serif" font-size="8" font-weight="600" fill="#2d3142">AI</text>
+<text x="600.0" y="207.0" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#2d3142">Guardrail</text>
+<text x="600.0" y="220.0" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8" fill="#4f5d75">this stops the harm</text>
+<line x1="504" y1="198.0" x2="528" y2="198.0" stroke="#2d3142" stroke-width="1" marker-end="url(#arrow)"/>
+<rect x="696" y="170" width="136" height="56" rx="6" fill="rgba(235,108,54,0.08)" stroke="#eb6c36" stroke-width="1.2"/>
+<rect x="702" y="176" width="30" height="16" rx="4" fill="#ececec"/>
+<text x="717.0" y="188" text-anchor="middle" font-family="Geist, sans-serif" font-size="8" font-weight="600" fill="#2d3142">SRC</text>
+<text x="764.0" y="207.0" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#2d3142">Evidence</text>
+<text x="764.0" y="220.0" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8" fill="#4f5d75">this shows the claim</text>
+<line x1="668" y1="198.0" x2="692" y2="198.0" stroke="#2d3142" stroke-width="1" marker-end="url(#arrow)"/>
+<rect x="860" y="170" width="136" height="56" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+<rect x="866" y="176" width="24" height="16" rx="4" fill="#ececec"/>
+<text x="878.0" y="188" text-anchor="middle" font-family="Geist, sans-serif" font-size="8" font-weight="600" fill="#2d3142">AI</text>
+<text x="928.0" y="207.0" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#2d3142">Conclusion</text>
+<text x="928.0" y="220.0" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8" fill="#4f5d75">PASS, FAIL or NOT SURE</text>
+<line x1="832" y1="198.0" x2="856" y2="198.0" stroke="#2d3142" stroke-width="1" marker-end="url(#arrow)"/>
+<rect x="1024" y="170" width="136" height="56" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+<rect x="1030" y="176" width="30" height="16" rx="4" fill="#ececec"/>
+<text x="1045.0" y="188" text-anchor="middle" font-family="Geist, sans-serif" font-size="8" font-weight="600" fill="#2d3142">YOU</text>
+<text x="1092.0" y="207.0" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#2d3142">Recommendation</text>
+<text x="1092.0" y="220.0" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8" fill="#4f5d75">the action and owner</text>
+<line x1="996" y1="198.0" x2="1020" y2="198.0" stroke="#2d3142" stroke-width="1" marker-end="url(#arrow)"/>
+<path d="M1092.0,170 C1092.0,92 272.0,92 272.0,166" fill="none" stroke="#7a8399" stroke-width="1" stroke-dasharray="4,3" marker-end="url(#arrowMuted)"/>
+<text x="682.0" y="98" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8" letter-spacing="0.06em" fill="#7a8399">after a change: do the check again</text>
+<line x1="764.0" y1="226" x2="764.0" y2="290" stroke="#7a8399" stroke-width="1" stroke-dasharray="4,3" marker-end="url(#arrowMuted)"/>
+<text x="778.0" y="266" text-anchor="start" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8" letter-spacing="0.06em" fill="#7a8399">no evidence</text>
+<rect x="654.0" y="294" width="220" height="48" rx="6" fill="rgba(45,49,66,0.03)" stroke="rgba(45,49,66,0.30)" stroke-width="1"/>
+<text x="764.0" y="316.0" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#2d3142">NOT SURE</text>
+<text x="764.0" y="329.0" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8" fill="#4f5d75">never becomes PASS</text>
+<line x1="40" y1="380" x2="1160" y2="380" stroke="rgba(45,49,66,0.12)" stroke-width="1"/>
+<text x="40" y="406" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8" font-weight="600" letter-spacing="0.1em" fill="#7a8399">WHO</text>
+<rect x="120" y="396" width="24" height="16" rx="4" fill="#ececec"/>
+<text x="132.0" y="408" text-anchor="middle" font-family="Geist, sans-serif" font-size="8" font-weight="600" fill="#2d3142">AI</text>
+<text x="154" y="408" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#2d3142">Claude can prepare this</text>
+<rect x="420" y="396" width="30" height="16" rx="4" fill="#ececec"/>
+<text x="435.0" y="408" text-anchor="middle" font-family="Geist, sans-serif" font-size="8" font-weight="600" fill="#2d3142">SRC</text>
+<text x="460" y="408" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#2d3142">must come from your files</text>
+<rect x="720" y="396" width="30" height="16" rx="4" fill="#ececec"/>
+<text x="735.0" y="408" text-anchor="middle" font-family="Geist, sans-serif" font-size="8" font-weight="600" fill="#2d3142">YOU</text>
+<text x="760" y="408" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#2d3142">you make the decision</text>
+<text x="40" y="436" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8" font-weight="600" letter-spacing="0.1em" fill="#7a8399">FLOW</text>
+<line x1="120" y1="434" x2="150" y2="434" stroke="#2d3142" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="160" y="438" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#2d3142">next step</text>
+<line x1="420" y1="434" x2="450" y2="434" stroke="#7a8399" stroke-width="1" stroke-dasharray="4,3" marker-end="url(#arrowMuted)"/>
+<text x="460" y="438" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#2d3142">go back, or stop with NOT SURE</text>
+</svg>
