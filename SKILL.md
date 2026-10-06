@@ -5,7 +5,7 @@ description: Guide a user through a RAHP (Risk Assessment and Harms Prevention) 
 
 # RAHP Harm Check
 
-RAHP is a method that tells you if a system deserves trust. The source is the RAHP Toolkit (https://github.com/sankarshanmukhopadhyay/rahp-toolkit, CC-BY 4.0). This skill applies a small part of that method to one app, agent, feature, or change that the user made.
+RAHP is a method that tells you if a system deserves trust. The source is the RAHP Toolkit (https://github.com/sankarshanmukhopadhyay/rahp-toolkit, CC-BY 4.0) by [Sankarshan Mukhopadhyay](https://github.com/sankarshanmukhopadhyay). This skill applies a small part of that method to one app, agent, feature, or change that the user made.
 
 The RAHP chain of reasoning is:
 
