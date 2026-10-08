@@ -2,7 +2,7 @@
 
 ## What is it?
 
-This repository gives a simple explanation and an agent skill for the [RAHP Toolkit](https://github.com/sankarshanmukhopadhyay/rahp-toolkit) by [Sankarshan Mukhopadhyay](https://github.com/sankarshanmukhopadhyay). RAHP is "Risk Assessment and Harms Prevention". RAHP is a method that tells you if you can trust a system. The method starts with the persons that a system can harm. Then it finds the evidence that shows that a control stops each harm.
+This repository gives a simple guide and a ready-made skill for your AI agent. Both are based on the [RAHP Toolkit](https://github.com/sankarshanmukhopadhyay/rahp-toolkit) by [Sankarshan Mukhopadhyay](https://github.com/sankarshanmukhopadhyay). RAHP is "Risk Assessment and Harms Prevention". RAHP is a method that tells you if you can trust a system. The method starts with the persons that a system can harm. Then it finds the evidence that shows that a control stops each harm.
 
 ![RAHP at a glance: you supply your app or agent, the harm check finds which harm it can cause, and the result is PASS, FAIL or NOT SURE](assets/rahp-at-a-glance.svg)
 
