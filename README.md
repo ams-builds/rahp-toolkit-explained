@@ -14,7 +14,7 @@ An AI app or agent can work correctly and still harm real people. For example, a
 
 ## Who is it for?
 
-This is for vibe coders, builders, and other persons who are not risk specialists. You make apps or agents with AI tools. Before other persons use your app, you must know if it can cause harm.
+This guide is for small teams, teams that grow quickly, and solo builders who put AI agents into real work. You do not need to be a specialist in risk, cybersecurity, governance, or safety. Before other persons use your app, you must know if it can cause harm.
 
 It is not necessary to install the full RAHP Toolkit. It is not necessary to write code. The skill is one `SKILL.md` file in the open [Agent Skills](https://agentskills.io) format. Many AI agents can use it, for example Claude, Codex, and GitHub Copilot.
 
